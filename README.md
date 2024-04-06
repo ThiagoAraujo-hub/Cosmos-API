@@ -37,6 +37,16 @@ This application is licensed under the [MIT License](https://opensource.org/lice
 - `/universe/{universe-id}/galaxies/{galaxy-name}`: Get information about a specific galaxy by name.
 - `/universe/{universe-id}/galaxies/{galaxy-id}`: Get information about a specific galaxy by ID.
 
+### Galaxy Black Holes
+- `/universe/{universe-id}/galaxies/{galaxy-name or galaxy-id}/black-holes`: Get information about black holes within a galaxy.
+- `/universe/{universe-id}/galaxies/{galaxy-name or galaxy-id}/black-holes/{black-hole-id}`: Get information about a specific black hole by ID.
+- `/universe/{universe-id}/galaxies/{galaxy-name or galaxy-id}/black-holes/{black-hole-name}`: Get information about a specific black hole by name.
+
+### Nebulas
+- `/universe/{universe-id}/galaxies/{galaxy-name or galaxy-id}/nebulas`: Get information about nebulas within a galaxy.
+- `/universe/{universe-id}/galaxies/{galaxy-name or galaxy-id}/nebulas/{nebula-id}`: Get information about a specific nebula by ID.
+- `/universe/{universe-id}/galaxies/{galaxy-name or galaxy-id}/nebulas/{nebula-name}`: Get information about a specific nebula by name.
+
 ### Rogue Stars
 - `/universe/{universe-id}/galaxies/{galaxy-name or galaxy-id}/stars`: Get information about rogue stars within a galaxy.
 - `/universe/{universe-id}/galaxies/{galaxy-name or galaxy-id}/stars/{star-id}`: Get information about a specific rogue star by ID.
@@ -51,6 +61,16 @@ This application is licensed under the [MIT License](https://opensource.org/lice
 - `/universe/{universe-id}/galaxies/{galaxy-name or galaxy-id}/stellar-systems`: Get information about stellar systems within a galaxy.
 - `/universe/{universe-id}/galaxies/{galaxy-name or galaxy-id}/stellar-systems/{stellar-system-id}`: Get information about a specific stellar system by ID.
 - `/universe/{universe-id}/galaxies/{galaxy-name or galaxy-id}/stellar-systems/{stellar-system-name}`: Get information about a specific stellar system by name.
+
+### Black Holes
+- `/universe/{universe-id}/galaxies/{galaxy-name or galaxy-id}/stellar-systems/{stellar-system-name or stellar-system-id}/black-holes`: Get information about black holes within a stellar system.
+- `/universe/{universe-id}/galaxies/{galaxy-name or galaxy-id}/stellar-systems/{stellar-system-name or stellar-system-id}/black-holes/{black-hole-id}`: Get information about a specific black hole by ID.
+- `/universe/{universe-id}/galaxies/{galaxy-name or galaxy-id}/stellar-systems/{stellar-system-name or stellar-system-id}/black-holes/{black-hole-name}`: Get information about a specific black hole by name.
+
+### Stars
+- `/universe/{universe-id}/galaxies/{galaxy-name or galaxy-id}/stellar-systems/{stellar-system-name or stellar-system-id}/stars`: Get information about stars within a stellar system.
+- `/universe/{universe-id}/galaxies/{galaxy-name or galaxy-id}/stellar-systems/{stellar-system-name or stellar-system-id}/stars/{star-id}`: Get information about a specific star by ID.
+- `/universe/{universe-id}/galaxies/{galaxy-name or galaxy-id}/stellar-systems/{stellar-system-name or stellar-system-id}/stars/{star-name}`: Get information about a specific star by name.
 
 ### Planets
 - `/universe/{universe-id}/galaxies/{galaxy-name or galaxy-id}/stellar-systems/{stellar-system-name or stellar-system-id}/planets`: Get information about planets within a stellar system.
